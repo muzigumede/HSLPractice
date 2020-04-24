@@ -7,4 +7,6 @@ listSum (x:xs) = x + listSum (xs)
 factorial 0 = 1
 factorial x = x * factorial (x-1)
 
+{- sumation function defination -}
+addTwo :: Integer -> Integer -> Integer
 addTwo x y = x + y
