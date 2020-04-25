@@ -1,5 +1,4 @@
-{- Sum function defination -}
-
+{- recursive Sum function defination -}
 listSum [] = 0
 listSum (x:xs) = x + listSum (xs)
 
@@ -10,3 +9,4 @@ factorial x = x * factorial (x-1)
 {- sumation function defination -}
 addTwo :: Integer -> Integer -> Integer
 addTwo x y = x + y
+
