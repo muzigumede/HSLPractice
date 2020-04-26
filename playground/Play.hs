@@ -9,4 +9,7 @@ factorial x = x * factorial (x-1)
 {- sumation function defination -}
 addTwo :: Integer -> Integer -> Integer
 addTwo x y = x + y
-
+ 
+{- Multiplication function definition -}
+multiply :: Integer -> Integer -> Integer
+multiply x y = x * y
